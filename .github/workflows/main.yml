@@ -1,0 +1,17 @@
+
+name: Test
+
+on: [push]
+
+jobs:
+  install_homebrew:
+    runs-on: macos-latest
+    steps:
+      - name: Install Homebrew
+        run: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      - name: Tap Repo
+        run: brew tap mtslzr/runelite
+      - name: Update Brew
+        run: brew update
+      - name: Install Cask
+        run: brew cask install runelite

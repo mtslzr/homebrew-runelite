@@ -6,7 +6,7 @@ Homebrew Tap for Runelite, the Old-School Runescape client.
 
 [Homepage](https://runelite.net)
 
-**Current Version:** 2.1.2
+**Current Version:** 2.1.5
 
 ![](https://github.com/mtslzr/homebrew-runelite/workflows/Test/badge.svg)
 
